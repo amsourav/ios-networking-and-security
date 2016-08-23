@@ -18,13 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sog-Pv-wpn">
-                                <rect key="frame" x="20" y="83" width="280" height="255"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nev-Z2-nfQ">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <items>
@@ -34,22 +27,63 @@
                                             <action selector="showShareAction:" destination="BYZ-38-t0r" id="2mc-pq-SVk"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="Item" systemItem="action" id="riU-tv-Ua7">
+                                        <color key="tintColor" red="0.96527705720000001" green="1" blue="0.9850434468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="showShareAction:" destination="BYZ-38-t0r" id="E9V-DI-yqM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" systemItem="action" id="TOz-Qi-nyC">
+                                        <color key="tintColor" red="0.96527705720000001" green="1" blue="0.9850434468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="showShareAction:" destination="BYZ-38-t0r" id="EJ0-cg-onG"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8bL-Au-0BY">
+                                <rect key="frame" x="20" y="219" width="280" height="117"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">csvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjc</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pSh-86-T6J">
+                                <rect key="frame" x="20" y="353" width="280" height="117"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">csvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjc</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sog-Pv-wpn">
+                                <rect key="frame" x="20" y="83" width="280" height="118"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">csvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjccsvsxvxvzxcvmxz.,mz,xmcvlkaxjcvlkxzjclzxjc</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Nev-Z2-nfQ" secondAttribute="trailing" constant="-20" id="3rt-Zg-5KV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Sog-Pv-wpn" secondAttribute="trailing" id="6PJ-dd-lbP"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="pSh-86-T6J" secondAttribute="leading" id="8w0-hE-n4e"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="8bL-Au-0BY" secondAttribute="leading" id="HAY-4X-ei5"/>
+                            <constraint firstItem="pSh-86-T6J" firstAttribute="top" secondItem="8bL-Au-0BY" secondAttribute="bottom" constant="28" id="Ons-l5-Lw3"/>
                             <constraint firstItem="Sog-Pv-wpn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PrB-V0-bMk"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Sog-Pv-wpn" secondAttribute="leading" id="UCn-7l-6LS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pSh-86-T6J" secondAttribute="trailing" id="UQV-RG-DxT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8bL-Au-0BY" secondAttribute="trailing" id="aHA-pz-Rp4"/>
                             <constraint firstItem="Sog-Pv-wpn" firstAttribute="top" secondItem="Nev-Z2-nfQ" secondAttribute="bottom" constant="19" id="hXU-sj-B4V"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Sog-Pv-wpn" secondAttribute="bottom" constant="230" id="kGt-Ns-DMX"/>
                             <constraint firstItem="Nev-Z2-nfQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="mCH-r7-sJK"/>
+                            <constraint firstItem="8bL-Au-0BY" firstAttribute="top" secondItem="Sog-Pv-wpn" secondAttribute="bottom" constant="18" id="rzV-Iy-khW"/>
+                            <constraint firstItem="pSh-86-T6J" firstAttribute="top" secondItem="8bL-Au-0BY" secondAttribute="bottom" constant="28" id="sQC-Ea-wp9"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="fbTextView" destination="8bL-Au-0BY" id="1Z0-g9-Hay"/>
+                        <outlet property="moreTextView" destination="pSh-86-T6J" id="xpq-UE-86B"/>
                         <outlet property="tweetTextView" destination="Sog-Pv-wpn" id="aMW-zJ-lB2"/>
                     </connections>
                 </viewController>

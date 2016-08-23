@@ -12,10 +12,11 @@
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextView *tweetTextView;
+@property (weak, nonatomic) IBOutlet UITextView *fbTextView;
+@property (weak, nonatomic) IBOutlet UITextView *moreTextView;
 
 - (void) configureTweetTextView;
 - (void) showAlertMessage:(NSString *) message;
-
 @end
 
 @implementation ViewController
@@ -75,9 +76,15 @@
             [self showAlertMessage:@"Please Sign In to facebook!"];
         }
     }];
+    
+    UIAlertAction *moreAction = [UIAlertAction actionWithTitle:@"More" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        UIActivityViewController *moreVC = [[UIActivityViewController alloc] initWithActivityItems:@[self.tweetTextView.text] applicationActivities:nil];
+        [self presentViewController:moreVC animated:YES completion:nil];
+    }];
         
     [actionController addAction:tweetAction];
     [actionController addAction:facebookAction];
+    [actionController addAction:moreAction];
     [actionController addAction:cancelAction];
     [self presentViewController:actionController animated:YES completion:nil];
 }
@@ -87,6 +94,14 @@
     self.tweetTextView.layer.cornerRadius = 10.0;
     self.tweetTextView.layer.borderColor = [UIColor colorWithWhite:0 alpha:0.5].CGColor;
     self.tweetTextView.layer.borderWidth = 2.0;
+    
+    self.fbTextView.layer.cornerRadius = 10.0;
+    self.fbTextView.layer.borderColor = [UIColor colorWithWhite:0 alpha:0.5].CGColor;
+    self.fbTextView.layer.borderWidth = 2.0;
+    
+    self.moreTextView.layer.cornerRadius = 10.0;
+    self.moreTextView.layer.borderColor = [UIColor colorWithWhite:0 alpha:0.5].CGColor;
+    self.moreTextView.layer.borderWidth = 2.0;
 
 }
 
